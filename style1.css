@@ -1,0 +1,407 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+h5.title {
+    font-size: 18px;
+    padding: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.img-responsive {
+	border-radius: 25px;
+	pointer-events: none;
+   
+   
+}
+
+p {
+    color: #333333;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    
+}
+ul {
+	margin-bottom: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #141414;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	background: #fff;
+}
+
+.resume {
+	background: #f5f5f5;
+	padding: 100px 0;
+}
+
+h5.title {
+font-size: 18px;
+padding: 20px;
+letter-spacing: 1px;
+border-bottom: 1px solid #e6e6e6;
+}
+
+
+.top-head {
+	margin-bottom: 30px;
+}
+
+.top-head h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 20px;
+    
+    
+    line-height: 38px;
+    
+}
+/*
+.top-head a {
+	letter-spacing: 1px;
+	background: #346abb;
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 3px;
+	display: inline-block;
+}
+*/
+   
+
+
+.about-me {
+    padding: 25px;
+    display: inline-block;
+    width: 100%;
+}
+.top-head a:hover {
+	background: rgb(145, 145, 145);
+}
+.side-bar {
+	background: #fff;
+}
+
+.side-bar .personal-info {
+	padding: 25px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.side-bar .personal-info li span {
+	width: 50%;
+	float: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.side-bar .personal-info li a {
+	color: #346abb;
+}
+
+.bor-btm {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.side-bar .attach li p {
+	margin: 0px;
+	color: #346abb;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.side-bar .attach li p a {
+	margin: 0px;
+	color: #346abb;
+	font-weight: bold;
+	float: right;
+	margin-left: 10px;
+}
+
+.side-bar .attach li {
+	background: #f5f5f5;
+	border: 1px solid #e6e6e6;
+	line-height: 40px;
+	padding: 0 15px;
+	margin-bottom: 20px;
+}
+
+/*.social-icon li {
+	display: inline-block;
+}
+
+.social-icon li a {
+	color: #333333;
+	border: 1px solid #cdcdcd;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	line-height: 48px;
+	margin-right: 8px;
+}
+
+.social-icon li a:hover {
+	background: #333333;
+	color: #fff;
+	border: 1px solid #333333;
+}
+*/
+.inside-sec {
+	width: 100%;
+	display: inline-block;
+	background: #fff;
+}
+
+.bio-info p {
+	line-height: 24px;
+	letter-spacing: 0px;
+}
+
+.skills h6 {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.accordion .panel-default .panel-heading {
+	background-color: #fff;
+	padding: 0px;
+	border-radius: 0px;
+	overflow: hidden;
+}
+
+.accordion .panel-default .panel-heading a {
+	text-decoration: none;
+	font-size: 13px;
+	width: 100%;
+	font-weight: 600;
+	color: #808080;
+	background: #fff;
+	padding: 5px 0px;
+	padding-left: 40px;
+	line-height: 20px;
+	display: inline-block;
+	text-transform: none;
+	border-radius: 20px;
+}
+
+.accordion .panel-default .panel-heading .panel-title a.collapsed:hover:before {
+	background: #346abb;
+	border: 1px solid #346abb;
+	color: #fff;
+}
+
+.accordion .panel {
+	box-shadow: none;
+	border-radius: 0px;
+	margin-bottom: 30px;
+	position: relative;
+	border: none;
+	margin-top: 0px;
+}
+
+.accordion .panel-body p {
+	font-size: 13px;
+	margin-bottom: 0px;
+	letter-spacing: 0px;
+}
+
+.accordion .panel-default>.panel-heading+.panel-collapse>.panel-body {
+	border: none;
+}
+.exp-history .sun {
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+	width: 130px;
+}
+
+.exp-history .company-logo {
+	position: absolute;
+	right: 0px;
+}
+
+.exp-history a {
+	color: #346abb;
+}
+
+
+.exp-history .exp {
+	margin-bottom: 40px;
+}
+
+.exp-history h6 {
+	margin-top: 0px;
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.exp-history p {
+	margin-bottom: 0px;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.exp-history .media-body {
+	position: relative;
+}
+
+.bio-info p {
+	margin-left: 15px;
+}
+
+.frontend {width: 35%; 
+	background-color: #4CAF50;
+	border-radius: 5px;
+}
+
+.backend {width: 20%; 
+	background-color: #2196F3;
+	border-radius: 5px;
+}
+
+.arct {width: 35%; 
+	background-color: #f44336;
+	border-radius: 5px;
+}
+
+.ux {width: 35%; 
+	background-color: #808080;
+	border-radius: 5px;
+}
+
+
+.webadmin {width: 15%;
+	background-color: #2196F3;
+	border-radius: 5px;
+	
+}
+
+.skills {color: white;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 50px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+  .fa:hover {
+	opacity: 0,7;
+
+}
+  
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+
+  .fa-github {
+	background: black;
+	color: white;
+  }
+  
+  
+
+#text {
+	text-align: center;
+
+}
+
+.head {
+	text-align: center;
+	font-size: 15px;
+}
+
+
+@media (max-width: 767px) {
+	.logged-in.admin-bar {
+	  margin-top: -46px;
+  }
+  }
+  
+  .rb-resume-block {
+	padding: 0;
+  }
+
+  .about-skills .skills h5.margin-top-30 {
+	margin-top: 0 !important;
+	font-size: 18px;
+	padding: 20px;
+	margin: 0px;
+	color: #333333;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 40px;
+  }
+  
+  .about-skills .bio-info  {
+	padding: 0 !important;
+  }
+  
+  .about-skills .bio-info .skills .panel-group.accordion {
+	padding-left: 30px;
+	padding-right: 30px;
+  }
+  
+  /* Resume tab */
+  
+  .non-inside-sec .vc_column_container>.vc_column-inner {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+  }
+  
+  .non-inside-sec .inside-sec {
+	display: block;
+  }
+  
+  
+  .non-inside-sec .inside-sec .bio-info .skills h5.margin-top-30 {
+	margin-top: 0 !important;
+  }
+  .non-inside-sec .inside-sec .bio-info {
+	padding-top: 0 !important;
+  }
+  
+  @media(max-width: 767px) {
+	li.menu-icon-two {
+	  display: block;
+	}
+  
+  
+	li.menu-icon-one {
+	  display: none;
+	}
